@@ -6,4 +6,4 @@ class Coche(Vehiculo):
         self.puertas = puertas
 
     def descripcion(self) -> str:
-        return f"[{self.marca} - {self.modelo}] Año: {self.anio} | Puertas: {self.puertas}"
+        return f"COCHE: {self.marca} {self.modelo} ({self.anio}) - {self.puertas} puertas"
